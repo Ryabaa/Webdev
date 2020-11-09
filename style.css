@@ -12,12 +12,9 @@ a {
 }
 
 .header {
-	height: 744px;
+	height: 60px;
 	width: auto;
 	background-color: black;
-	background-image: url(./images/bg-image.png);
-	background-size: cover;
-	background-position: center;
 }
 
 .nav {
@@ -42,14 +39,22 @@ a {
 .nav-margin {
 	margin-left: 100px;
 }
-]
 
 .about-underline {
 	text-decoration: underline;
 }
 
-.header-title {
-	margin-top: 150px;
+.hero {
+	height: 744px;
+	width: auto;
+	background-color: black;
+	background-image: url(./images/bg-image.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.hero-title {
+	padding-top: 150px;
 	display: flex;
 	justify-content: center;
 	color: white;
@@ -59,7 +64,7 @@ a {
 	font-weight: 700;
 }
 
-.header-text {
+.hero-text {
 	width: 504px;
 	display: block;
 	margin: 30px auto;
@@ -74,7 +79,7 @@ a {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 60px;
+	margin-top: 100px;
 	font-family: sans-serif;
 	font-weight: 650;
 	text-transform: uppercase;
