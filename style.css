@@ -14,15 +14,16 @@ a {
 .header {
 	height: 744px;
 	width: auto;
+	background-color: black;
 	background-image: url(./images/bg-image.png);
+	background-size: cover;
+	background-position: center;
 }
 
 .nav {
+	padding-top: 10px;
 	display: flex;
-	padding-top: 20px;
-	margin-left: 200px;
-	margin-right: 200px;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 
 .nav-text {
@@ -31,7 +32,6 @@ a {
 	font-size: 14px;
 	font-family: sans-serif;
 	font-weight: 500;
-	line-height: 19px;
 }
 
 .nav-links {
@@ -39,44 +39,44 @@ a {
 	text-decoration: unset;
 }
 
+.nav-margin {
+	margin-left: 100px;
+}
+]
+
 .about-underline {
 	text-decoration: underline;
 }
 
 .header-title {
+	margin-top: 150px;
+	display: flex;
+	justify-content: center;
 	color: white;
 	text-transform: uppercase;
 	font-size: 64px;
 	font-family: sans-serif;
 	font-weight: 700;
-	line-height: 75px;
-	text-align: center;
-	margin-top: 160px;
-}
-
-.lol {
-	margin-top: 50px;
-	width: 504px;
-	height: 50px;
-	position: absolute;
-	left: calc(50% - 504px / 2);
-	top: calc(50% - 50px / 2 - 22px);
 }
 
 .header-text {
+	width: 504px;
+	display: block;
+	margin: 30px auto;
 	text-align: center;
 	color: white;
 	font-size: 18px;
 	font-family: sans-serif;
 	font-weight: 400;
-	line-height: 25px;
 }
 
 .get-started {
-	margin: 150px 575px 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 60px;
 	font-family: sans-serif;
 	font-weight: 650;
-	line-height: 16px;
 	text-transform: uppercase;
 	background-color: #00afdb;
 	border: 1px solid #00afdb;
@@ -92,9 +92,11 @@ a {
 }
 
 .social-icons {
+	margin-top: 200px;
 	display: flex;
-	justify-content: space-evenly;
-	margin-left: 550px;
-	margin-right: 550px;
-	margin-top: 150px;
+	justify-content: center;
+}
+
+.social-icon {
+	margin-left: 40px;
 }
