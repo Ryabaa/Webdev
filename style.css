@@ -1,3 +1,5 @@
+/*Общие классы*/
+
 body,
 h1,
 h2,
@@ -10,6 +12,91 @@ a {
 	font-size: 100%;
 	font-weight: normal;
 }
+
+.white {
+	color: white;
+}
+
+.black {
+	color: black;
+}
+
+.font-size-14px {
+	font-size: 14px;
+}
+
+.button {
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	font-family: sans-serif;
+	font-weight: 650;
+	text-transform: uppercase;
+	background-color: #00afdb;
+	border: 1px solid #00afdb;
+	color: white;
+	font-size: 14px;
+	padding: 15px 45px;
+	transition: all 0.5s ease;
+}
+
+.button:hover {
+	background-color: white;
+	color: #00afdb;
+}
+
+.section {
+	width: 100%;
+	background-color: white;
+}
+
+.section-first-third {
+	height: 842px;
+	display: flex;
+	flex-direction: row;
+}
+
+.section-left {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-right {
+	width: 50%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.container-left {
+	width: 405px;
+	display: flex;
+	flex-direction: column;
+}
+
+.text {
+	font-size: 14px;
+	font-family: sans-serif;
+	font-weight: 500;
+	color: #4e4e4e;
+}
+
+.title {
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #373737;
+}
+
+.margin-text {
+	margin-top: 20px;
+}
+
+/*Индивидуальные классы*/
 
 .header {
 	height: 60px;
@@ -26,9 +113,6 @@ a {
 .nav-text {
 	align-items: center;
 	color: white;
-	font-size: 14px;
-	font-family: sans-serif;
-	font-weight: 500;
 }
 
 .nav-links {
@@ -60,7 +144,6 @@ a {
 	padding-top: 150px;
 	display: flex;
 	justify-content: center;
-	color: white;
 	text-transform: uppercase;
 	font-size: 64px;
 	font-family: sans-serif;
@@ -72,31 +155,16 @@ a {
 	display: block;
 	margin: 30px auto;
 	text-align: center;
-	color: white;
 	font-size: 18px;
 	font-family: sans-serif;
 	font-weight: 400;
 }
 
-.get-started {
+.hero-button {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
-	font-family: sans-serif;
-	font-weight: 650;
-	text-transform: uppercase;
-	background-color: #00afdb;
-	border: 1px solid #00afdb;
-	color: white;
-	font-size: 14px;
-	padding: 15px 45px;
-	transition: all 0.5s ease;
-}
-
-.get-started:hover {
-	background-color: white;
-	color: #00afdb;
 }
 
 .social-icons {
@@ -118,71 +186,15 @@ a {
 	width: auto;
 }
 
-.first-section {
-	height: 842px;
-	display: flex;
-	flex-direction: row;
+.width-first-title {
+	width: 380px;
 }
 
-.first-section-left {
-	width: 50%;
-	height: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.first-section-left-container {
-	display: flex;
-	flex-direction: column;
-}
-
-.first-section-title {
-	width: 390px;
-	font-family: sans-serif;
-	font-weight: 700;
-	font-size: 24px;
-	text-transform: uppercase;
-	color: #373737;
-}
-
-.first-section-text {
-	margin-top: 20px;
+.width-first-text {
 	width: 405px;
-	font-family: sans-serif;
-	font-weight: 500;
-	font-size: 14px;
-	color: #4e4e4e;
 }
 
-.first-section-button {
-	margin-top: 30px;
-	width: 200px;
-	height: 50px;
-	font-family: sans-serif;
-	font-weight: 650;
-	text-transform: uppercase;
-	background-color: #00afdb;
-	border: 1px solid #00afdb;
-	color: white;
-	font-size: 14px;
-	padding: 15px 45px;
-	transition: all 0.5s ease;
-}
-
-.first-section-button:hover {
-	background-color: white;
-	color: #00afdb;
-}
-
-.first-section-right {
-	width: 50%;
-	height: 100%;
-	display: flex;
-	justify-content: center;
-}
-
-.first-section-image {
+.content-image-1 {
 	width: 407px;
 	height: 582px;
 	display: flex;
@@ -190,8 +202,59 @@ a {
 }
 
 .second-section {
+	width: 100%;
 	height: 504px;
-	background-color: yellow;
+	background-color: #f5f6f7;
+}
+
+.second-container-left {
+	text-align: center;
+}
+
+.width-left-section {
+	width: 40%;
+}
+
+.size-icon {
+	width: 45px;
+	height: 45px;
+}
+
+.margin-title {
+	margin-top: 20px;
+}
+
+.width-second-text {
+	width: 300px;
+	margin-top: 10px;
+}
+
+.width-right-section {
+	width: 60%;
+}
+
+.section-right-flex {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-right-direction {
+	display: flex;
+	flex-direction: row;
+}
+
+.container-right-second {
+	width: 734px;
+	height: 214px;
+	display: flex;
+	flex-direction: row;
+}
+
+.content-image-2 {
+	width: 337px;
+	height: 214px;
+	margin-right: 30px;
 }
 
 .third-section {
@@ -207,4 +270,9 @@ a {
 .fifth-section {
 	height: 464px;
 	background-color: red;
+}
+
+.footer {
+	height: 185px;
+	background-color: black;
 }
