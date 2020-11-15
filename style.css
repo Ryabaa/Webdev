@@ -25,7 +25,7 @@ a {
 	font-size: 14px;
 }
 
-.get-started {
+.button {
 	text-decoration: none;
 	padding-top: 17px;
 	text-align: center;
@@ -42,7 +42,7 @@ a {
 	transition: all 0.5s ease;
 }
 
-.get-started:hover {
+.button:hover {
 	background-color: white;
 	color: #00afdb;
 }
@@ -162,7 +162,7 @@ a {
 	font-weight: 400;
 }
 
-.hero-get-started {
+.hero-button {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -274,12 +274,54 @@ a {
 
 .fourth-section {
 	height: 520px;
-	background-color: blue;
+	background-image: url(./images/notebook-bg.png);
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.input-title {
+	text-align: center;
+	color: white;
+}
+
+.form {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+	width: 405px;
+	height: 42px;
+}
+
+.input {
+	width: 340px;
+	height: 40px;
+	border: none;
+}
+
+.chek-button {
+	width: 65px;
+	height: 42px;
+	background-color: #00afdb;
+	border: 1px solid #00afdb;
+	transition: all 0.5s ease;
+}
+
+.chek {
+	width: 22px;
+	height: 22px;
+	align-self: center;
+}
+
+.chek-button:hover {
+	background-color: #00798f;
 }
 
 .fifth-section {
 	height: 464px;
-	background-color: red;
+	background-color: white;
 }
 
 .footer {
