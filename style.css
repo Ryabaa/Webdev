@@ -25,12 +25,13 @@ a {
 	font-size: 14px;
 }
 
-.button {
+.link-get-started {
 	text-decoration: none;
-	padding-top: 17px;
-	text-align: center;
-	width: 200px;
-	height: 35px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 180px;
+	height: 45px;
 	margin-top: 30px;
 	font-family: sans-serif;
 	font-weight: 650;
@@ -42,7 +43,11 @@ a {
 	transition: all 0.5s ease;
 }
 
-.button:hover {
+.link-get-started:focus {
+	outline: none;
+}
+
+.link-get-started:hover {
 	background-color: white;
 	color: #00afdb;
 }
@@ -96,6 +101,32 @@ a {
 
 .margin-text {
 	margin-top: 20px;
+}
+
+.link-size {
+	width: 125px;
+	height: 45px;
+}
+
+.icon-link {
+	width: 60px;
+	height: 45px;
+	background-color: #009cc2;
+}
+
+.download-form {
+	width: 185px;
+	height: 45px;
+	display: flex;
+	flex-direction: row;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.icon-link:hover {
+	background-color: #00798f;
 }
 
 /*Индивидуальные классы*/
@@ -162,8 +193,7 @@ a {
 	font-weight: 400;
 }
 
-.hero-button {
-	display: block;
+.hero-link-get-started {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 100px;
@@ -292,7 +322,7 @@ a {
 	display: flex;
 	flex-direction: row;
 	width: 405px;
-	height: 42px;
+	height: 40px;
 }
 
 .input {
@@ -301,27 +331,52 @@ a {
 	border: none;
 }
 
-.chek-button {
+.input:focus {
+	outline: none;
+}
+
+.chek-link-get-started {
 	width: 65px;
-	height: 42px;
+	height: 40px;
 	background-color: #00afdb;
 	border: 1px solid #00afdb;
 	transition: all 0.5s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .chek {
 	width: 22px;
 	height: 22px;
-	align-self: center;
 }
 
-.chek-button:hover {
+.chek-link-get-started:hover {
 	background-color: #00798f;
 }
 
 .fifth-section {
 	height: 464px;
 	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.download-container {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	width: 480px;
+	height: 165px;
+}
+
+.links-download-container {
+	margin-top: 30px;
+	height: 47px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
 }
 
 .footer {
