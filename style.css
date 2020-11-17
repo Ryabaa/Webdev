@@ -136,8 +136,22 @@ a {
 .download-link:hover {
 	background-color: #37e1ff;
 }
-/*Индивидуальные классы*/
 
+.footer-link {
+	text-decoration: none;
+	color: white;
+}
+
+.footer-link-text {
+	width: 120px;
+	text-align: center;
+}
+
+.footer-link:not(:first-child) {
+	border-left: 1px solid #4e4e4e;
+}
+
+/*Индивидуальные классы*/
 .header {
 	height: 60px;
 	width: auto;
@@ -389,4 +403,19 @@ a {
 .footer {
 	height: 185px;
 	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.footer-links-container {
+	margin-left: -170px;
+	width: 350px;
+	display: flex;
+	flex-direction: row;
+}
+
+.footer-logo {
+	width: 44px;
+	height: 44px;
 }
