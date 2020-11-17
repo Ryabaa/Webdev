@@ -103,32 +103,39 @@ a {
 	margin-top: 20px;
 }
 
-.link-size {
-	width: 125px;
+.download-link {
+	margin: 0;
+	width: 185px;
 	height: 45px;
+	display: flex;
+	flex-direction: row;
+	border-right: none;
+}
+
+.link-text {
+	margin-left: 10px;
+	font-family: sans-serif;
+	font-weight: 650;
+	font-style: normal;
+	text-transform: uppercase;
+	color: white;
+	font-size: 14px;
 }
 
 .icon-link {
+	margin: 0 0 0 13.3px;
 	width: 60px;
 	height: 45px;
 	background-color: #009cc2;
 }
 
-.download-form {
-	width: 185px;
-	height: 45px;
-	display: flex;
-	flex-direction: row;
-}
-
-.no-margin {
-	margin: 0;
-}
-
 .icon-link:hover {
-	background-color: #00798f;
+	background-color: #006c80;
 }
 
+.download-link:hover {
+	background-color: #37e1ff;
+}
 /*Индивидуальные классы*/
 
 .header {
@@ -335,7 +342,7 @@ a {
 	outline: none;
 }
 
-.chek-link-get-started {
+.check-link-get-started {
 	width: 65px;
 	height: 40px;
 	background-color: #00afdb;
@@ -346,12 +353,12 @@ a {
 	align-items: center;
 }
 
-.chek {
+.check {
 	width: 22px;
 	height: 22px;
 }
 
-.chek-link-get-started:hover {
+.check-link-get-started:hover {
 	background-color: #00798f;
 }
 
