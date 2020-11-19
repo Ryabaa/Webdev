@@ -37,7 +37,6 @@ a {
 	font-weight: 650;
 	text-transform: uppercase;
 	background-color: #00afdb;
-	border: 1px solid #00afdb;
 	color: white;
 	font-size: 14px;
 	transition: all 0.5s ease;
@@ -48,8 +47,8 @@ a {
 }
 
 .link-get-started:hover {
-	background-color: white;
-	color: #00afdb;
+	background-color: #009cc2;
+	color: white;
 }
 
 .section {
@@ -129,12 +128,8 @@ a {
 	background-color: #009cc2;
 }
 
-.icon-link:hover {
-	background-color: #006c80;
-}
-
 .download-link:hover {
-	background-color: #37e1ff;
+	background-color: #009cc2;
 }
 
 .footer-link {
@@ -142,6 +137,11 @@ a {
 	color: white;
 	display: flex;
 	flex-direction: row;
+	transition: all 0.3s ease;
+}
+
+.footer-link:hover {
+	color: #373737;
 }
 
 .footer-link-text {
@@ -359,32 +359,31 @@ a {
 
 .input {
 	width: 340px;
-	height: 40px;
 	border: none;
 }
 
 .input:focus {
 	outline: none;
+	border: 1.8px solid #00afdb;
 }
 
 .check-link-get-started {
 	width: 65px;
 	height: 40px;
 	background-color: #00afdb;
-	border: 1px solid #00afdb;
 	transition: all 0.5s ease;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+.check-link-get-started:hover {
+	background-color: #009cc2;
+}
+
 .check {
 	width: 22px;
 	height: 22px;
-}
-
-.check-link-get-started:hover {
-	background-color: #00798f;
 }
 
 .fifth-section {
