@@ -140,15 +140,23 @@ a {
 .footer-link {
 	text-decoration: none;
 	color: white;
+	display: flex;
+	flex-direction: row;
 }
 
 .footer-link-text {
-	width: 120px;
 	text-align: center;
 }
 
-.footer-link:not(:first-child) {
-	border-left: 1px solid #4e4e4e;
+.footer-link:not(:first-child)::before {
+	display: flex;
+	align-self: center;
+	content: " ";
+	background: #4e4e4e;
+	width: 2px;
+	height: 10px;
+	float: left;
+	margin: 0 10px;
 }
 
 /*Индивидуальные классы*/
@@ -311,6 +319,9 @@ a {
 .content-images {
 	width: 337px;
 	height: 214px;
+}
+
+.content-images:not(:last-child) {
 	margin-right: 30px;
 }
 
@@ -404,12 +415,11 @@ a {
 	height: 185px;
 	background-color: black;
 	display: flex;
-	justify-content: space-around;
 	align-items: center;
+	justify-content: space-around;
 }
 
 .footer-links-container {
-	margin-left: -170px;
 	width: 350px;
 	display: flex;
 	flex-direction: row;
@@ -418,4 +428,5 @@ a {
 .footer-logo {
 	width: 44px;
 	height: 44px;
+	position: absolute;
 }
