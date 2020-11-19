@@ -1,5 +1,9 @@
 /*Общие классы*/
 
+* {
+	scroll-behavior: smooth;
+}
+
 body,
 h1,
 h2,
@@ -167,7 +171,7 @@ a {
 }
 
 .nav {
-	padding-top: 10px;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 }
@@ -200,10 +204,12 @@ a {
 	background-image: url(./images/bg-image.png);
 	background-size: cover;
 	background-position: center;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
 }
 
 .hero-title {
-	padding-top: 150px;
 	display: flex;
 	justify-content: center;
 	text-transform: uppercase;
