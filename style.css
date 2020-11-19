@@ -202,14 +202,12 @@ a {
 	width: auto;
 	background-color: black;
 	background-image: url(./images/bg-image.png);
-	background-size: cover;
 	background-position: center;
-	flex-direction: column;
-	display: flex;
-	justify-content: center;
+	background-size: cover;
 }
 
 .hero-title {
+	padding-top: 200px;
 	display: flex;
 	justify-content: center;
 	text-transform: uppercase;
@@ -221,7 +219,7 @@ a {
 .hero-text {
 	width: 504px;
 	display: block;
-	margin: 30px auto;
+	margin: 20px auto;
 	text-align: center;
 	font-size: 18px;
 	font-family: sans-serif;
@@ -231,11 +229,11 @@ a {
 .hero-link-get-started {
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 100px;
+	margin-top: 30px;
 }
 
 .social-icons {
-	margin-top: 200px;
+	margin-top: 180px;
 	display: flex;
 	justify-content: center;
 	transition: all 0.5s ease;
