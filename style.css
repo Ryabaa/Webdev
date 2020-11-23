@@ -552,6 +552,9 @@ a {
 	.download-link {
 		margin-top: 20px;
 	}
+	.icon-link {
+		margin-left: 15.3px;
+	}
 	.footer {
 		width: 100%;
 		display: flex;
@@ -562,6 +565,7 @@ a {
 		justify-content: center;
 	}
 	.creator {
+		margin-top: 60px;
 		align-self: center;
 	}
 }
