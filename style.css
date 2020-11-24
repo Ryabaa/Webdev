@@ -437,6 +437,81 @@ a {
 
 /*..........................@Media..........................*/
 
+@media (max-width: 1200px) {
+	.container-right-second {
+		display: flex;
+		flex-direction: column;
+		width: 337px;
+		height: 450px;
+		justify-content: space-between;
+	}
+	.content-images:not(:last-child) {
+		margin: 0;
+	}
+}
+
+@media (max-width: 850px) {
+	.body {
+		height: auto;
+	}
+	.hero-title {
+		width: auto;
+		text-align: center;
+	}
+	.section-first-third {
+		height: auto;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.section-left,
+	.section-right {
+		width: auto;
+		height: 50%;
+		justify-content: flex-start;
+		padding: 50px 0 80px 80px;
+	}
+	.second-section {
+		width: 100%;
+		height: auto;
+		display: flex;
+		flex-direction: column;
+	}
+	.container-right-second {
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		justify-content: center;
+	}
+	.content-images:not(:first-child) {
+		margin-left: 30px;
+	}
+	.second-container-left {
+		padding-top: 20px;
+	}
+	.width-left-section {
+		padding: 0;
+		justify-content: center;
+	}
+	.width-right-section {
+		padding: 0;
+	}
+	.content-images {
+		width: 300px;
+		height: 170px;
+		padding: 30px 0;
+	}
+	.section-left-third,
+	.section-right-third {
+		justify-content: flex-end;
+		padding: 50px 80px 80px 0;
+	}
+	.section-left {
+		padding-top: 0;
+	}
+}
+
 @media (max-width: 425px) {
 	.header {
 		width: 100%;
@@ -474,25 +549,34 @@ a {
 	.section-first-third {
 		width: 100%;
 		display: flex;
-		flex-direction: column-reverse;
 		align-items: center;
 		justify-content: center;
+		padding: 0;
 	}
 	.section-left {
 		width: 100%;
+		padding: 0;
 	}
 	.section-right {
 		width: 100%;
+		padding: 0;
 	}
 	.content-image {
-		padding-top: 50px;
 		width: 300px;
 		height: 418px;
 		align-self: flex-end;
+		padding: 30px 0 0 30px;
+	}
+	.content-image-third {
+		padding: 30px 30px 0 0;
 	}
 	.container-left {
 		width: 300px;
 		height: auto;
+		padding: 30px 0 30px 30px;
+	}
+	.container-left-third {
+		padding: 30px 30px 30px 0;
 	}
 	.width-first-title {
 		width: auto;
@@ -518,8 +602,9 @@ a {
 		flex-direction: column;
 		align-items: center;
 	}
-	.content-images:not(:last-child) {
+	.content-images:not(:first-child) {
 		margin: 0;
+		padding-top: 0;
 	}
 	.content-images {
 		width: 300px;
@@ -553,7 +638,7 @@ a {
 		margin-top: 20px;
 	}
 	.icon-link {
-		margin-left: 15.3px;
+		margin-left: 15.468px;
 	}
 	.footer {
 		width: 100%;
